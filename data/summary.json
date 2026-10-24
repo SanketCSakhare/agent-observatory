@@ -1,0 +1,39 @@
+{
+  "sessions": 1200,
+  "events": 9412,
+  "summary": {
+    "technical_success_pct": 97.08,
+    "completion_pct": 84.33
+  },
+  "tools": [
+    {
+      "tool": "identity_api",
+      "attempts": 426,
+      "error_pct": 9.15
+    },
+    {
+      "tool": "llm",
+      "attempts": 1307,
+      "error_pct": 9.33
+    },
+    {
+      "tool": "orders_api",
+      "attempts": 447,
+      "error_pct": 14.77
+    },
+    {
+      "tool": "profile_api",
+      "attempts": 423,
+      "error_pct": 7.8
+    },
+    {
+      "tool": "search",
+      "attempts": 452,
+      "error_pct": 8.63
+    }
+  ],
+  "provenance": {
+    "kind": "synthetic",
+    "seed": 42
+  }
+}
