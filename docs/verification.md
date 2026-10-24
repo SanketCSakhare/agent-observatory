@@ -13,7 +13,7 @@ Authoring date: 24 October 2026.
 
 The JavaScript harness supplies a minimal document stub. It is not a rendering engine. Browser binaries were absent and the Chromium installation download failed. Therefore screenshots, actual click/focus behaviour, downloaded CSV bytes, responsive layout and assistive-technology behaviour were not verified. No screenshots are included and none are represented as real renders.
 
-GitHub CI is authored but has not run remotely. The project is published in the agent-observatory GitHub repository. Runtime has no third-party dependencies; Node is used for development checks only.
+GitHub Actions run #1 completed successfully on 24 October 2026, including the Python 3.10 / 3.12 matrix, dashboard logic harness and deterministic rebuild check. The project is published in the agent-observatory GitHub repository. Runtime has no third-party dependencies; Node is used for development checks only.
 
 ## Browser acceptance checklist for a reviewer
 

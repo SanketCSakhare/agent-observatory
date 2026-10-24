@@ -69,7 +69,7 @@ flowchart TD
 - `dashboard/template.html`: dashboard source; `index.html` is the generated runnable output.
 - `data/`: generated session/event JSONL, summary and local SQLite output.
 - `tests/`: metric reconciliation, import integrity, escaping and regression checks.
-- `docs/`: metric dictionary, data contract, findings, interview notes and screenshots.
+- `docs/`: metric dictionary, data contract, findings, interview notes and verification record.
 - `.github/workflows/ci.yml`: Python checks and deterministic output drift check.
 
 ## What the data demonstrates
